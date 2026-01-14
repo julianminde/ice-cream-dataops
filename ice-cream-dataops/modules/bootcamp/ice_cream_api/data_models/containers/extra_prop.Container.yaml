@@ -1,0 +1,13 @@
+space: {{ icapi_space_name }}
+externalId: 'RandomValue'
+name: 'RandomValue'
+description: 'Random value for testing purposes'
+properties:
+
+  randomValue:
+    name: 'RandomValue'
+    description: 'Random value for testing purposes'
+    type:
+      type: text
+      list: false
+    nullable: true

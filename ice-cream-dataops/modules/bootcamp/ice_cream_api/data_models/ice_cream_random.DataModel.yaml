@@ -1,0 +1,10 @@
+externalId: RandomIceCreamDataModel
+name: Random Ice Cream Data Model
+version: '0.0.1'
+space: {{ icapi_space_name }}
+description: 'A data model for structuring and querying activity data.'
+views:
+  - type: view
+    externalId: IceCreamWithRandomValue
+    space: {{ icapi_space_name }}
+    version: '0.0.1'

@@ -1,0 +1,19 @@
+space: {{ icapi_space_name }}
+externalId: 'IceCreamWithRandomValue'
+name: 'IceCreamWithRandomValue'
+description: 'View for Ice Cream asset with Random Value'
+version: '0.0.1'
+implements: 
+  - type: view
+    externalId: CogniteAsset
+    space: cdf_cdm
+    version: v1
+
+properties:
+  randomValue:
+    name: 'RandomValue'
+    description: 'Random value for testing purposes'
+    container: 
+      space: '{{ icapi_space_name }}'
+      externalId: 'RandomValue'
+    containerPropertyIdentifier: randomValue
